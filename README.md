@@ -4,9 +4,11 @@ This repo contains test files to reproduce an issue that came up when inplementi
 When using eth_estimateGas we expect the estimation to fail if it is reverted. As this repo shows this is currently not the case on Emerald.
 
 Expected behavior run on hardhat network.
+
 ![Expected behavior](/assets/expected.png)
 
 Behavior on Emerald testnet.
+
 ![Expected behavior](/assets/emerald.png)
 
 # Reproduce
